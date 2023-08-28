@@ -18,7 +18,7 @@ import { ProjectSummary } from 'layouts/Home/ProjectSummary';
 import { useEffect, useRef, useState } from 'react';
 import styles from './Home.module.css';
 
-const disciplines = ['Developer', 'Prototyper', 'Animator', 'Illustrator', 'Modder'];
+const disciplines = ['Web Developer', 'Mobile Developer', 'Prototyper', 'Animator'];
 
 export const Home = () => {
   const [visibleSections, setVisibleSections] = useState([]);
@@ -68,8 +68,8 @@ export const Home = () => {
   return (
     <div className={styles.home}>
       <Meta
-        title="Designer + Developer"
-        description="Design portfolio of Hamish Williams — a product designer working on web & mobile
+        title="Full-stack Developer"
+        description="Design portfolio of Oleg Reimers — a product developer working on web & mobile
           apps with a focus on motion, experience design, and accessibility."
       />
       <Intro
@@ -80,20 +80,20 @@ export const Home = () => {
       />
       <ProjectSummary
         id="project-1"
-        sectionRef={projectOne}
-        visible={visibleSections.includes(projectOne.current)}
+        sectionRef={projectThree}
+        visible={visibleSections.includes(projectThree.current)}
         index={1}
-        title="Designing the future of education"
-        description="Designing a platform to help educators build better online courseware"
+        title="Website development"
+        description="Web application development focused on building performant and accessible experiences for all."
         buttonText="View project"
-        buttonLink="/projects/smart-sparrow"
+        buttonLink="/projects/slice"
         model={{
           type: 'laptop',
-          alt: 'Smart Sparrow lesson builder',
+          alt: 'Annotating a biomedical image in the Slice app',
           textures: [
             {
-              srcSet: [sprTexture, sprTextureLarge],
-              placeholder: sprTexturePlaceholder,
+              srcSet: [sliceTexture, sliceTextureLarge],
+              placeholder: sliceTexturePlaceholder,
             },
           ],
         }}
@@ -104,8 +104,8 @@ export const Home = () => {
         sectionRef={projectTwo}
         visible={visibleSections.includes(projectTwo.current)}
         index={2}
-        title="Video game progress tracking"
-        description="Design and development for a video game tracking app built in React Native"
+        title="Mobile app development"
+        description="Design and development for a mobile app built in Hybrid frameworks."
         buttonText="View website"
         buttonLink="https://gamestack.hamishw.com"
         model={{
@@ -125,24 +125,25 @@ export const Home = () => {
       />
       <ProjectSummary
         id="project-3"
-        sectionRef={projectThree}
-        visible={visibleSections.includes(projectThree.current)}
+        sectionRef={projectOne}
+        visible={visibleSections.includes(projectOne.current)}
         index={3}
-        title="Biomedical image collaboration"
-        description="Increasing the amount of collaboration in Slice, an app for biomedical imaging"
+        title="Designing the future of education"
+        description="Designing a platform to help educators build better online courseware"
         buttonText="View project"
-        buttonLink="/projects/slice"
+        buttonLink="/projects/smart-sparrow"
         model={{
           type: 'laptop',
-          alt: 'Annotating a biomedical image in the Slice app',
+          alt: 'Smart Sparrow lesson builder',
           textures: [
             {
-              srcSet: [sliceTexture, sliceTextureLarge],
-              placeholder: sliceTexturePlaceholder,
+              srcSet: [sprTexture, sprTextureLarge],
+              placeholder: sprTexturePlaceholder,
             },
           ],
         }}
       />
+
       <Profile
         sectionRef={details}
         visible={visibleSections.includes(details.current)}

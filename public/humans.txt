@@ -1,38 +1,36 @@
-__  __  __
-\ \ \ \ \/
- \ \/\ \
-  \/  \/
+
+       /\
+      /  \
+     / /\ \
+     \ \/ /
+      \  /
+       \/
 
 The humans.txt file explains the team, technology,
 and graphic assets behind this site humanstxt.org.
 
 _______________________________________________________________________________
 
-DESIGNER | デザイナー
+Full-stack Developer | Heavy Front-end
 
-Hamish Williams
-Hand crafted design & web development
+Oleg Reimers
+Hand Web & Mobile Development
 
-Design tools:
-Figma
-Photoshop
-Blender
-
-twitter.com/hamishmw
 github.com/hamishmw
 
 _______________________________________________________________________________
 
-TECHNOLOGY | テクノロジー
+TECHNOLOGY | 
 
-React
-Next.js
+React     Next.js
+VueJs     Nuxt.js
+Webflow   Wix           SquareSpace
 Three.js
 Framer Motion
+Flutter   React Native  Swift
 
 _______________________________________________________________________________
 
-FONTS | フォント
+FONTS 
 
 Gotham
-Hiragino Kaku Gothic

@@ -40,10 +40,15 @@ import { Fragment } from 'react';
 import { media } from 'utils/style';
 import styles from './Slice.module.css';
 
-const title = 'Biomedical image collaboration';
+const title = 'Website Development & Design';
 const description =
-  'This project involved designing a better way for biomedical educators and learners to annotate digital slides together.';
-const roles = ['User Research', 'UX Design', 'Interface Design'];
+  'Web application development focused on building performant and accessible experiences for all.';
+const roles = [
+  'UI/UX Design',
+  'Reusable Components',
+  'SEO-Based Website',
+  'Ecommerce Development',
+];
 
 export const Slice = () => {
   return (
@@ -59,7 +64,7 @@ export const Slice = () => {
         <ProjectHeader
           title={title}
           description={description}
-          url="https://www.best.edu.au/s/q2yjjvl7?data=8%404!9%4020303!10%40-15087&version=1"
+          url="https://www.floodin.com/"
           roles={roles}
         />
         <ProjectSection padding="top">
@@ -75,16 +80,15 @@ export const Slice = () => {
         <ProjectSection>
           <ProjectSectionColumns centered className={styles.columns}>
             <div className={styles.imagesText}>
-              <ProjectSectionHeading>Bringing it together</ProjectSectionHeading>
+              <ProjectSectionHeading>UX Deisgn</ProjectSectionHeading>
               <ProjectSectionText>
-                Teachers needed a better way to create collaborative group activities by
-                annotating slides on Slice. Before starting this project, a layer could
-                only be annotated by a single user, making it difficult for learners to
-                work together.
+                Floodin crafts simple, beautiful digital products for adventure tourism
+                operators. Floodin is a hardworking, passionate group of people with roots
+                in adventure tourism and in developing enterprise software products.
               </ProjectSectionText>
               <ProjectSectionText>
-                Our solution was to allow users to be invited to a layer, where they can
-                see others’ annotations and make their own.
+                Floodin is to make the life of our friends in the adventure tourism sector
+                easier - and have fun while doing it.
               </ProjectSectionText>
             </div>
             <div className={styles.sidebarImages}>
@@ -108,14 +112,25 @@ export const Slice = () => {
         <ProjectSection light>
           <ProjectSectionContent>
             <ProjectTextRow>
-              <ProjectSectionHeading>Improving the experience</ProjectSectionHeading>
+              <ProjectSectionHeading>Ecommerce development</ProjectSectionHeading>
               <ProjectSectionText>
-                A problem we heard about often form users was that it was difficult to
-                find images they had previously seen or worked on. To solve this we added
-                a new tab that lists all previously annotated slides. In addition, we
-                added the ability to favorite slides, so if users find an interesting
-                slide they want to annotate later, they can easily save it to their
-                account.
+                🎆 This website offers payment methods which offer a {'"'}money back
+                services
+                {'"'}
+              </ProjectSectionText>
+              <ProjectSectionText>
+                🎆 Online shopping features were detected (use our shopping scam
+                checklist)
+              </ProjectSectionText>
+              <ProjectSectionText>
+                🎆 We found a valid SSL certificate The site has been set-up several years
+              </ProjectSectionText>
+              <ProjectSectionText>
+                🎆 ago DNSFilter labels this site as safe Checked for malware and phishing
+                by
+              </ProjectSectionText>
+              <ProjectSectionText>
+                🎆 Flashstart This website is trusted by Trend Micro
               </ProjectSectionText>
             </ProjectTextRow>
             <Image
@@ -126,7 +141,7 @@ export const Slice = () => {
             />
           </ProjectSectionContent>
         </ProjectSection>
-        <ProjectSection padding="top">
+        {/* <ProjectSection padding="top">
           <ProjectSectionContent className={styles.grid}>
             <div className={styles.gridImage}>
               <div className={styles.gridBackground}>
@@ -177,7 +192,7 @@ export const Slice = () => {
               alt="Students at the University of New South Wales using the new collaborative annotation features"
             />
           </ProjectSectionContent>
-        </ProjectSection>
+        </ProjectSection> */}
       </ProjectContainer>
       <Footer />
     </Fragment>
