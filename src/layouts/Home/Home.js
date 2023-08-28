@@ -107,7 +107,7 @@ export const Home = () => {
         title="Mobile app development"
         description="Design and development for a mobile app built in Hybrid frameworks."
         buttonText="View projects"
-        buttonLink="https://gamestack.hamishw.com"
+        buttonLink="https://mobilestack-preview.netlify.app/"
         model={{
           type: 'phone',
           alt: 'App login screen',
