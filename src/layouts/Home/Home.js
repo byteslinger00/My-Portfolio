@@ -106,7 +106,7 @@ export const Home = () => {
         index={2}
         title="Mobile app development"
         description="Design and development for a mobile app built in Hybrid frameworks."
-        buttonText="View website"
+        buttonText="View projects"
         buttonLink="https://gamestack.hamishw.com"
         model={{
           type: 'phone',
