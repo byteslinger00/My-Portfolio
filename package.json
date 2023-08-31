@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "homepage": "",
   "description": "Portfolio site for Oleg Reimers",
-  "repository": "https://github.com/olegreimers/Oleg-Reimers-Portfolio.git",
+  "repository": "",
   "author": "Oleg Reimers <gru.papoy.dev@gmail.com>",
   "devDependencies": {
     "@mapbox/rehype-prism": "^0.8.0",
