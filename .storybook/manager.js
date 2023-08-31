@@ -5,7 +5,7 @@ addons.setConfig({
   theme: {
     ...themes.dark,
     brandImage: 'https://hamishw.com/icon.svg',
-    brandTitle: 'Oleg Reimers Components',
+    brandTitle: 'ByteSlinger Components',
     brandUrl: 'https://hamishw.com',
   },
 });

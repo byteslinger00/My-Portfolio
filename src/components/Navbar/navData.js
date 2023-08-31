@@ -20,7 +20,7 @@ export const navLinks = [
 export const socialLinks = [
   {
     label: 'Github',
-    url: 'https://github.com/olegreimers/',
+    url: 'https://github.com/byteslinger00/',
     icon: 'github',
   },
 ];

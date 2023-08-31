@@ -13,7 +13,7 @@ _______________________________________________________________________________
 
 Full-stack Developer | Heavy Front-end
 
-Oleg Reimers
+ByteSlinger
 Hand Web & Mobile Development
 
 github.com/byteslinger00

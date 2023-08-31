@@ -2,9 +2,9 @@
   "name": "portfolio",
   "version": "1.0.0",
   "homepage": "",
-  "description": "Portfolio site for Oleg Reimers",
+  "description": "Portfolio site for ByteSlinger",
   "repository": "",
-  "author": "Oleg Reimers <gru.papoy.dev@gmail.com>",
+  "author": "ByteSlinger <gru.papoy.dev@gmail.com>",
   "devDependencies": {
     "@mapbox/rehype-prism": "^0.8.0",
     "@storybook/addon-a11y": "^6.5.10",
