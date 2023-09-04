@@ -1,7 +1,7 @@
 # Personal portfolio
-
+<!--
 [![Site preview](/public/site-preview.png)](https://olegreimers.netlify.app/)
-
+-->
 
 ## Install & run
 
