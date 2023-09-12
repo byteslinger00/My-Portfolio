@@ -21,7 +21,7 @@ const ProfileText = ({ visible, titleId }) => (
       <DecoderText text="Hi there" start={visible} delay={500} />
     </Heading>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      Expert full-stack developer based in Germany. My
+      Expert full-stack developer. My
       projects include React, Next.js, Vue, Flutter, React Native, Swift, UI/UX Design.
       Being comfortable with code allows me to rapidly prototype and validate experiences.
       If you’re interested in the tools and software I use check out my{' '}
