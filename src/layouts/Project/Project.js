@@ -15,7 +15,7 @@ const initDelay = 300;
 export function ProjectHeader({
   title,
   description,
-  linkLabel = 'Visit website',
+  linkLabel = 'https://www.floodin.com/',
   url,
   roles,
   className,
@@ -44,6 +44,46 @@ export function ProjectHeader({
               {linkLabel}
             </Button>
           )}
+          <br />
+          <Button
+            secondary
+            iconHoverShift
+            className={styles.linkButton}
+            icon="chevronRight"
+            href="https://www.anthropic.com/"
+          >
+            https://www.anthropic.com/
+          </Button>
+          <br />
+          <Button
+            secondary
+            iconHoverShift
+            className={styles.linkButton}
+            icon="chevronRight"
+            href="https://agence-belle-epoque.fr/en/"
+          >
+            https://agence-belle-epoque.fr/en/
+          </Button>
+          <br />
+          <Button
+            secondary
+            iconHoverShift
+            className={styles.linkButton}
+            icon="chevronRight"
+            href="https://unmaze.com.br/en/"
+          >
+            https://unmaze.com.br/en/
+          </Button>
+          <br />
+          <Button
+            secondary
+            iconHoverShift
+            className={styles.linkButton}
+            icon="chevronRight"
+            href="https://next-movies-zeta.vercel.app/"
+          >
+            https://next-movies-zeta.vercel.app/
+          </Button>
         </div>
         {!!roles?.length && (
           <ul className={styles.meta}>

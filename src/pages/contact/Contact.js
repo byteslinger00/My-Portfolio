@@ -71,7 +71,7 @@ export const Contact = () => {
       />
       <Transition unmount in={!complete} timeout={1600}>
         {(visible, status) => (
-          <form className={styles.form} method="post" onSubmit={onSubmit}>
+          <div className={styles.form}>
             <Heading
               className={styles.title}
               data-status={status}
@@ -86,7 +86,7 @@ export const Contact = () => {
               data-status={status}
               style={getDelay(tokens.base.durationXS, initDelay, 0.4)}
             />
-            <Input
+            {/* <Input
               required
               className={styles.input}
               data-status={status}
@@ -96,7 +96,7 @@ export const Contact = () => {
               type="email"
               maxLength={512}
               {...email}
-            />
+            /> */}
             <Input
               required
               multiline
@@ -126,20 +126,22 @@ export const Contact = () => {
                 </div>
               )}
             </Transition>
-            <Button
-              className={styles.button}
-              data-status={status}
-              data-sending={sending}
-              style={getDelay(tokens.base.durationM, initDelay)}
-              disabled={sending}
-              loading={sending}
-              loadingText="Sending..."
-              icon="send"
-              type="submit"
-            >
-              Send message
-            </Button>
-          </form>
+            <a href={`mailto:enoswang@hotmail.com?body=${message.value}`}>
+              <Button
+                className={styles.button}
+                data-status={status}
+                data-sending={sending}
+                style={getDelay(tokens.base.durationM, initDelay)}
+                disabled={sending}
+                loading={sending}
+                loadingText="Sending..."
+                icon="send"
+                type="submit"
+              >
+                Send message
+              </Button>
+            </a>
+          </div>
         )}
       </Transition>
       <Transition unmount in={complete}>

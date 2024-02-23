@@ -21,10 +21,10 @@ const ProfileText = ({ visible, titleId }) => (
       <DecoderText text="Hi there" start={visible} delay={500} />
     </Heading>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      Expert full-stack developer. My
-      projects include React, Next.js, Vue, Flutter, React Native, Swift, UI/UX Design.
-      Being comfortable with code allows me to rapidly prototype and validate experiences.
-      If you’re interested in the tools and software I use check out my{' '}
+      Expert Full-stack(<strong>Front-end Heavy</strong>) developer. My projects include
+      React, Next.js, Vue, Flutter, React Native, Swift, UI/UX Design. Being comfortable
+      with code allows me to rapidly prototype and validate experiences. If you’re
+      interested in the tools and software I use check out my{' '}
       <Link href="/uses">uses page</Link>.
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
@@ -93,9 +93,7 @@ export const Profile = ({ id, visible, sectionRef }) => {
                   viewBox="0 0 135 765"
                   className={styles.svg}
                   data-visible={visible}
-                >
-                  {/* <use href={`${profileKatakana}#katakana-profile`} /> */}
-                </svg>
+                ></svg>
               </div>
             </div>
           </div>

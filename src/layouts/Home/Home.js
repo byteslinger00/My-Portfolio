@@ -18,7 +18,7 @@ import { ProjectSummary } from 'layouts/Home/ProjectSummary';
 import { useEffect, useRef, useState } from 'react';
 import styles from './Home.module.css';
 
-const disciplines = ['Web Developer', 'Mobile Developer', 'Prototyper', 'Animator'];
+const disciplines = ['Front-end', 'API integration', 'Animator'];
 
 export const Home = () => {
   const [visibleSections, setVisibleSections] = useState([]);
@@ -68,7 +68,7 @@ export const Home = () => {
   return (
     <div className={styles.home}>
       <Meta
-        title="Full-stack Developer"
+        title="Full-stack(Front-end Heavy) Developer"
         description="Design portfolio of ByteSlinger — a product developer working on web & mobile
           apps with a focus on motion, experience design, and accessibility."
       />
