@@ -18,7 +18,7 @@ import { ProjectSummary } from 'layouts/Home/ProjectSummary';
 import { useEffect, useRef, useState } from 'react';
 import styles from './Home.module.css';
 
-const disciplines = ['Front-end', 'API integration', 'Animator'];
+const disciplines = ['Full-stack','Front-end', 'API integration', 'Animator'];
 
 export const Home = () => {
   const [visibleSections, setVisibleSections] = useState([]);
