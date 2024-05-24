@@ -65,6 +65,7 @@ export const Profile = ({ id, visible, sectionRef }) => {
                 Send me a message
               </Button>
             </div>
+{/*
             <div className={styles.column}>
               <div className={styles.tag} aria-hidden>
                 <Divider
@@ -96,6 +97,7 @@ export const Profile = ({ id, visible, sectionRef }) => {
                 ></svg>
               </div>
             </div>
+            */}
           </div>
         )}
       </Transition>
